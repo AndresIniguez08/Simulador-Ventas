@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simulador de Tienda GameZone</title>
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>🎮 Simulador de Tienda GameZone 🎮</h1>
+
+      <div class="descripcion">
+        <h3>Descripción del Simulador</h3>
+        <p>
+          Este simulador permite gestionar una tienda de videojuegos donde
+          puedes consultar el catálogo de juegos disponibles, calcular precios
+          con descuentos según la cantidad de juegos comprados, y procesar
+          ventas. El sistema incluye funciones para mostrar inventario, calcular
+          totales con descuentos automáticos y registrar las transacciones.
+        </p>
+
+        <p>
+          La interacción se realiza completamente a través de la consola del
+          navegador y cuadros de diálogo. Abre las herramientas de desarrollador
+          (F12) y ve a la pestaña "Console" para ver todos los mensajes y
+          utilizar las funciones del simulador.
+        </p>
+      </div>
+
+      <div style="text-align: center">
+        <button onclick="iniciarSimulador()">🚀 Iniciar Simulador</button>
+        <button onclick="mostrarCatalogo()">📋 Ver Catálogo</button>
+        <button onclick="realizarVenta()">💰 Realizar Venta</button>
+        <button onclick="consultarInventario()">📦 Consultar Inventario</button>
+      </div>
+    </div>
+
+    <script src="simulador.js"></script>
+  </body>
+</html>
